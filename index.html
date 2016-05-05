@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+	<head><title>afya map</title></head>
+	<link rel="stylesheet" type="text/css" href="css_style/mainstyle.css" />
+	<style>
+		@font-face {
+			font-family: dosis;
+			src: url("fonts/Dosis-ExtraLight.ttf");
+		}
+		@font-face {
+			font-family: quicksand_regular;
+			src: url("fonts/Quicksand-Regular.ttf");
+		}
+	</style>
+	<script src="j-queryLibraries/jquerySourceFile/jquery-2.1.4.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("header").click(function() {
+			//$(".map_content").show();
+			alert("hello world");
+		});
+	});
+	</script>
+	<body>
+		<div class="mothercontainer">
+			<header>
+				<div id="logo">
+					<img src="AfyaMap_logo.png" alt="afyamap logo"/>
+				</div>
+				<div class="extra">
+					<div id="about"><a href="#">About </a></div>
+					<div id="addcenter"><a href="#">Add center</a></div>
+				</div>
+			</header>
+			<div class="contentcontainer">
+				<div id="leftcontainer">
+					<div class="menutabs">
+						<div id="tab1">
+							<a href="index.html" >
+								<div id="icon">
+									<img src="icons/map.svg">
+								</div>
+								<div id="menuitem">
+									<p id="tabitem" href="index.html">Map</p>
+								</div>
+							</a>	
+						</div>
+						<div id="tab2">
+							<div id="icon">
+								<img src="icons/statistics.svg" />
+							</div>
+							<div id="menuitem">
+								<p id="tabitem">statistics</p>
+							</div>
+						</div>
+						<div id="tab3">
+							<div  id="icon">
+								<img src="icons/user.svg" />
+							</div>
+							<div id="menuitem">
+								<p id="tabitem">user</p>
+							</div>
+						</div>	
+					</div>
+					<div class="map_content">
+						<div class="searchcontainer">
+							<form>
+								<input type="search" name="search" id="search" placeholder="search">
+							</form>	
+						</div>
+						<div class="institution_filter">
+							<div id="select1">
+								<form>
+									<input type="checkbox" name="hospitals" id="hospitals" checked="checked">
+									<label for="hospitals">Hospitals</label>
+								</form>
+							</div>
+							<div id="select2">
+								<form>
+									<input type="checkbox" name="dispensary" id="dispensary">
+									<label for="dispensary">Dispensary</label>
+								</form>
+							</div>
+							<div id="select3">
+								<form>
+									<input type="checkbox" name="clinics" id="clinics">
+									<label for="clinics">Clinics</label>
+								</form>
+							</div>
+							<div id="select4">
+								<form>
+									<input type="checkbox" name="health_center" name="heath_center" id="health_center">
+									<label for="health_center">Health center</label>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="stats_content">
+						<div id="stats_header">
+							<p>Data Set</p>	
+						</div>
+
+						<div id="dataoption">
+							<div id="malaria">
+								<a href="#">Maria</a>	
+							</div>
+							<div id="hiv">
+								<a href="#">HIV</a>
+							</div>
+							<div id="death">
+								<a href="#">Deaths</a>
+							</div>
+						</div>
+					</div>
+					<div class="user_content" >
+						<div id="loginhead">
+							<p>Welcome</p>
+						</div>
+						<div id="loginform">
+							<form>
+								<input type="email" name="email" id="email" placeholder="email address"/>
+								<input type="password" name="password" id="pass" placeholder="password"/>
+								<input type="submit" name="submit" value="login" id="submit"/>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div id="rightcontainer">
+					<script>
+            			function initMap() {
+              			var mapDiv = document.getElementById('rightcontainer');
+              			var map = new google.maps.Map(mapDiv, {
+              	  		center: {lat: -6.7808, lng: 39.2772},
+                		zoom: 16
+              			});
+            		}
+         			 </script>
+           			<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+             		async defer>
+             		</script>  
+				</div>
+			</div>
+		</div>	
+	</body>
+</html>
