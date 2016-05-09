@@ -1,0 +1,148 @@
+
+[
+    {
+        "pk": 234,
+        "model": "facility.facility",
+        "fields": {
+            "f_name": "LILOMBE",
+            "f_type": "DISPENSARY",
+            "f_region": "LINDI",
+            "pt": "POINT (37.89294 -10.21982)",
+            "longitude": "37.89294",
+            "latitude": "-10.21982"
+        }
+    },
+    {
+        "pk": 6484,
+        "model": "facility.facility",
+        "fields": {
+            "f_name": "MPIGAMITI",
+            "f_type": "DISPENSARY",
+            "f_region": "LINDI",
+            "pt": "POINT (37.60799 -9.92963)",
+            "longitude": "37.60799",
+            "latitude": "-9.92963"
+        }
+    },
+    {
+        "pk": 6892,
+        "model": "facility.facility",
+        "fields": {
+            "f_name": "AGAKHAN MEDICAL CENTRE",
+            "f_type": "DISPENSARY",
+            "f_region": "DAR ES SALAAM",
+            "pt": "POINT (39.284284 -6.819776)",
+            "longitude": "39.284284",
+            "latitude": "-6.819776"
+        }
+    },
+    {
+        "pk": 2956,
+        "model": "facility.facility",
+        "fields": {
+            "f_name": "CHINISE MEDICAL",
+            "f_type": "DISPENSARY",
+            "f_region": "DAR ES SALAAM",
+            "pt": "POINT (39.278715 -6.809809)",
+            "longitude": "39.278715",
+            "latitude": "-6.809809"
+        }
+    },
+    {
+        "pk": 8655,
+        "model": "facility.facility",
+        "fields": {
+            "f_name": "MAFARASA MABIBO",
+            "f_type": "DISPENSARY",
+            "f_region": "DAR ES SALAAM",
+            "pt": "POINT (39.2206 -6.80862)",
+            "longitude": "39.2206",
+            "latitude": "-6.80862"
+        }
+    },
+    {
+        "pk": 4009,
+        "model": "facility.facility",
+        "fields": {
+            "f_name": "MICO ANNEX",
+            "f_type": "DISPENSARY",
+            "f_region": "DAR ES SALAAM",
+            "pt": "POINT (39.26447 -6.79681)",
+            "longitude": "39.26447",
+            "latitude": "-6.79681"
+        }
+    },
+    {
+        "pk": 4109,
+        "model": "facility.facility",
+        "fields": {
+            "f_name": "TUMAINI DISPENSARY",
+            "f_type": "DISPENSARY",
+            "f_region": "DAR ES SALAAM",
+            "pt": "POINT (37.54419 -3.38023)",
+            "longitude": "37.54419",
+            "latitude": "-3.38023"
+        }
+    },
+    {
+        "pk": 4239,
+        "model": "facility.facility",
+        "fields": {
+            "f_name": "IHOWA",
+            "f_type": "DISPENSARY",
+            "f_region": "MBEYA",
+            "pt": "POINT (33.105308 -9.036842)",
+            "longitude": "33.105308",
+            "latitude": "-9.036842"
+        }
+    },
+    {
+        "pk": 4480,
+        "model": "facility.facility",
+        "fields": {
+            "f_name": "SAGHANA",
+            "f_type": "DISPENSARY",
+            "f_region": "KILIMANJARO",
+            "pt": "POINT (37.55778 -3.40345)",
+            "longitude": "37.55778",
+            "latitude": "-3.40345"
+        }
+    },
+    {
+        "pk": 42349,
+        "model": "facility.facility",
+        "fields": {
+            "f_name": "OLJORO ROAD",
+            "f_type": "DISPENSARY",
+            "f_region": "ARUSHA",
+            "pt": "POINT (36.66012 -3.38639)",
+            "longitude": "36.66012",
+            "latitude": "-3.38639"
+        }
+    },
+    {
+        "pk": 44709,
+        "model": "facility.facility",
+        "fields": {
+            "f_name": "LCC HURUMA",
+            "f_type": "DISPENSARY",
+            "f_region": "ARUSHA",
+            "pt": "POINT (36.65818 -3.41898)",
+            "longitude": "36.65818",
+            "latitude": "-3.41898"
+        }
+    },
+    {
+        "pk": 2859,
+        "model": "facility.facility",
+        "fields": {
+            "f_name": "MKUYUNI",
+            "f_type": "HEALTH CENTRE",
+            "f_region": "MOROGORO",
+            "pt": "POINT (37.81077 -6.95078)",
+            "longitude": "37.81077",
+            "latitude": "-6.95078"
+        }
+    }
+    
+]
